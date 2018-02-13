@@ -17,3 +17,31 @@ but can be used with any application running in any language.
  The default implementation of  the server storage backend uses git so it easily supports labelled versions of configuration environments,
  as well as being accessible  to a wide range of tooling for managing the content. It is easy to add alternative implementations and plug
  them in with Spring  configuration.
+ 
+ https://cloud.spring.io/spring-cloud-config/
+ 
+ Spring Cloud Security:
+ ---------------------
+ Spring Cloud Security offers a set of primitives for building secure applications and services with minimum fuss. 
+ A declarative model which can be heavily configured externally (or centrally) lends itself to the implementation of large 
+ systems of co-operating, remote components, usually with a central indentity management service. 
+ 
+ It is also extremely easy to use in a service platform like Cloud Foundry. Building on Spring Boot and Spring Security OAuth2 we 
+ can quickly create systems that implement common patterns like single sign on, token relay and token exchange.
+ 
+ Spring Cloud Zookeeper:
+ -----------------------
+ Spring Cloud Zookeeper provides Apache Zookeeper integrations for Spring Boot apps through autoconfiguration and binding to 
+ the Spring Environment and other Spring programming model idioms. With a few simple annotations you can quickly enable and configure 
+ the common patterns inside your application and build large distributed systems with Zookeeper. 
+ 
+ The patterns provided include Service Discovery and Distributed Configuration.
+ 
+ Spring Cloud Netflix:
+ ---------------------
+ Spring Cloud Netflix provides Netflix OSS integrations for Spring Boot apps through autoconfiguration and binding to the Spring 
+ Environment and other Spring programming model idioms. With a few simple annotations you can quickly enable and configure the 
+ common patterns inside your application and build large distributed systems with battle-tested Netflix components.
+ 
+ The patterns provided include Service Discovery (Eureka), Circuit Breaker (Hystrix), Intelligent Routing (Zuul) and Client Side 
+ Load Balancing (Ribbon)..
